@@ -1,0 +1,25 @@
+{
+    "name": "cachified-redis-adapter",
+    "version": "1.0.0",
+    "description": "A redis adapter for usage with @epic-web/cachified",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "cachified",
+        "redis"
+    ],
+    "author": {
+        "name": "Manjot Virdi",
+        "url": "https://www.manjot.dev/"
+    },
+    "license": "ISC",
+    "dependencies": {
+        "semantic-release": "^22.0.12"
+    },
+    "volta": {
+        "node": "20.10.0"
+    }
+}

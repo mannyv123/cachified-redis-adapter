@@ -24,7 +24,7 @@
     "build:esm": "esbuild src/index.ts --outfile=dist/index.mjs --format=esm --bundle --target=es2020 --sourcemap --minify",
     "build:cjs": "esbuild src/index.ts --outfile=dist/index.cjs --format=cjs --bundle --target=es2016 --sourcemap",
     "test": "jest",
-    "format": "prettier --write",
+    "format": "prettier . --write",
     "lint": "eslint",
     "semantic-release": "semantic-release",
     "type-check": "tsc --noEmit"

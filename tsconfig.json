@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "lib": ["es2022", "DOM"],
+    "target": "es2016",
+    "esModuleInterop": true,
+    "outDir": "dist",
+    "moduleResolution": "node",
+    "declaration": true
+  },
+  "exclude": ["node_modules", "src/**/*.spec.ts"],
+  "include": ["src/*"]
+}

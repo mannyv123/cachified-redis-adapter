@@ -1,4 +1,4 @@
-import {redisCacheAdapter} from './index'
+import {redisCacheAdapter} from './'
 
 describe('it works with redis4 like cache', () => {
   const mockRedis4Cache = {

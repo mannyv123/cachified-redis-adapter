@@ -17,7 +17,6 @@ export interface RedisLikeCache {
   del(key: string): Promise<unknown>
 }
 
-// Adapter function
 export function redisCacheAdapter(redisCache: RedisLikeCache): Cache {
   return {
     name: redisCache.name || 'Redis',
@@ -41,6 +40,7 @@ export function redisCacheAdapter(redisCache: RedisLikeCache): Cache {
       if (value == null) {
         return null
       }
+      // Note that parse can potentially throw an error here and the expectation is that the user of the adapter catches it
       return JSON.parse(value)
     },
     delete(key) {

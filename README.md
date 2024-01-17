@@ -23,6 +23,10 @@ npm install cachified-redis-adapter
 
 **Meant to be used with `@epicweb-dev/cachified`**
 
+**If working with JSON data, try using the `redis-json` cachified adapter,
+linked below:**
+[cachified=redis-json-adapter](https://github.com/tearingItUp786/cachified-redis-json-adapter)
+
 ```ts
 import {redisCacheAdapter} from 'cachified-redis-json-adapter'
 

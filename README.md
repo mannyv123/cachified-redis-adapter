@@ -28,20 +28,23 @@ linked below:**
 [cachified-redis-json-adapter](https://github.com/tearingItUp786/cachified-redis-json-adapter)
 
 ```ts
+// Create an instance of a redis client to pass to the adapter
+// You will need to define this yourself
+import {createClient} from 'redis'
 import {redisCacheAdapter} from 'cachified-redis-json-adapter'
 
-// create an instance of a redis client to pass to the adapter
-// you will need to define this yourself.
-let redisClient = createRedisClient()
-const redisCache = redisCacheAdapter(redisClient)
+const redis = createClient({
+  /* ...opts */
+})
+const cache = redisCacheAdapter(redis)
 
-// usage with cachified
-return cachified({
-  key: `some-cache-key`,
-  // use the cache we defined above
-  cache: redisCache,
-  getFreshValue: async () => {}, // some function to get fresh values
-  // other cachified optoins
+await cachified({
+  cache,
+  key: 'user-1',
+  getFreshValue() {
+    return 'user@example.org'
+  },
+  /* ...opts */
 })
 ```
 

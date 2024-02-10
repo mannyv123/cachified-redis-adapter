@@ -45,10 +45,10 @@
     "node": "20.10.0"
   },
   "peerDependencies": {
-    "@epic-web/cachified": "^4.0.0"
+    "@epic-web/cachified": "^5.0.0"
   },
   "devDependencies": {
-    "@epic-web/cachified": "^4.0.0",
+    "@epic-web/cachified": "^5.0.0",
     "@types/jest": "^29.5.11",
     "@typescript-eslint/eslint-plugin": "^6.16.0",
     "@typescript-eslint/parser": "^6.16.0",

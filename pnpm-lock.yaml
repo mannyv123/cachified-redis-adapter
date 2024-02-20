@@ -7,7 +7,7 @@ settings:
 devDependencies:
   '@epic-web/cachified':
     specifier: ^5.0.0
-    version: 5.1.1
+    version: 5.1.2
   '@types/jest':
     specifier: ^29.5.11
     version: 29.5.11
@@ -390,8 +390,8 @@ packages:
     dev: true
     optional: true
 
-  /@epic-web/cachified@5.1.1:
-    resolution: {integrity: sha512-LFqTI88BDI9u1yxG9igEJ/Zn8XcZPsBox87sm0Z5Iu+3Q9ywvafn7Wkx5+4Bm9GHEbrg6WCHPr8XbGO47ddkqw==}
+  /@epic-web/cachified@5.1.2:
+    resolution: {integrity: sha512-8Q1J/jF0bOKUN+XPTSUo+z34WJHMBLkuDv+HkPPS9ufs+cHvInWrLOLi3qIljhe03Xq777pwEDBKnMafetnPhA==}
     dev: true
 
   /@esbuild/aix-ppc64@0.19.10:

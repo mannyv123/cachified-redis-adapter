@@ -53,6 +53,14 @@ await cachified({
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://twitter.com/tearingitup786"><img src="https://avatars.githubusercontent.com/u/16584942?v=4?s=100" width="100px;" alt="Taranveer (Taran) Bains"/><br /><sub><b>Taranveer (Taran) Bains</b></sub></a><br /><a href="#code-tearingItUp786" title="Code">💻</a> <a href="#test-tearingItUp786" title="Tests">⚠️</a> <a href="#doc-tearingItUp786" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/mannyv123"><img src="https://avatars.githubusercontent.com/u/123426666?v=4?s=100" width="100px;" alt="Manjot Virdi"/><br /><sub><b>Manjot Virdi</b></sub></a><br /><a href="#code-mannyv123" title="Code">💻</a> <a href="#test-mannyv123" title="Tests">⚠️</a> <a href="#doc-mannyv123" title="Documentation">📖</a></td>
+    </tr>
+  </tbody>
+</table>
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->

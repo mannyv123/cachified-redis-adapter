@@ -1,4 +1,24 @@
 {
   "projectName": "cachified-redis-adapter",
-  "projectOwner": "mannyv123"
+  "projectOwner": "mannyv123",
+  "files": ["README.md"],
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributorsPerLine": 7,
+  "contributors": [
+    {
+      "login": "tearingItUp786",
+      "name": "Taranveer (Taran) Bains",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16584942?v=4",
+      "profile": "https://twitter.com/tearingitup786",
+      "contributions": ["code", "test", "doc"]
+    },
+    {
+      "login": "mannyv123",
+      "name": "Manjot Virdi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/123426666?v=4",
+      "profile": "https://github.com/mannyv123",
+      "contributions": ["code", "test", "doc"]
+    }
+  ]
 }

@@ -31,7 +31,7 @@ linked below:**
 // Create an instance of a redis client to pass to the adapter
 // You will need to define this yourself
 import {createClient} from 'redis'
-import {redisCacheAdapter} from 'cachified-redis-json-adapter'
+import {redisCacheAdapter} from 'cachified-redis-adapter'
 
 const redis = createClient({
   /* ...opts */
